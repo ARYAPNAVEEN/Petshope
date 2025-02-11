@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+
+.header{
+    background-color: antiquewhite !important;
+    height: 500px !important;
+}
+
+.bg-body-tertiary {
+    background:none !important;
+    height: 5em !important;
+}
+
+.header .btn{
+    border-radius: 2px;
+    background-color: #ed784a !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    color: rgb(255 255 255) !important;
+}
+
+.header .nav-link{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: rgb(45, 44, 44) !important;
+}
+
+.line{
+    width: 1px;
+    height: 20px;
+    background-color:  #edc687;
+}
+
+
+/* service */
+
+.services{
+    background: black;
+    height: 180px;
+    color: white;
+}
+
+.services .category{
+    height: 70px;
+    background: white;
+    width: 60%;
+    top: -40px;  
+    color: gray; 
+    font-size: 18px;
+}
+.services .category .btn{
+    padding: 16px 19px;
+    background-color: #ed784a !important;
+    font-size: 10px !important;
+}
+.services .categor .btn-secondary{
+    background-color: transparent !important;
+    padding: 10px 10px;
+}
+.services .category .dropdown .btn{
+    background-color: transparent !important;
+    border: 1px solid gray !important;
+    padding: 9px 12px;
+
+}
+.services .categoy-second .figure-caption{
+    color: white !important;
+}
+.services .categoy-second .figure img{
+color: white !important;
+}
+.services .picsection figure{
+    width: 128px;
+    height: 106px;
+}
+.services .picsection .figure img{
+    width: 57%;
+}
+/* breeds */
+.breeds{
+    height: max-content;
+}
+.breeds .row .btn{  
+    padding: 10px 39px;
+    color: black;
+    font-weight:500;
+ } 
+ .breeds .row .btn button{
+    border: 1px solid orange;
+ }
+ .profile{
+    background-color: #ed784a;
+    height: max-content;
+ }
+ .profile .bi-heart{
+    position: relative;
+    top: -195px;
+    left: 218px;
+    color: white;
+ }
+ .profile .pic img{
+    height: 65px;
+    width: 64px;
+    border-radius: 50%;
+ }
+ .profile .pic{
+    bottom: 130px;
+    left: 200px;
+ }
+ .profile .btn button{
+    border-color: transparent !important;
+    color: white;
+    border: 1px solid white !important;
+ }
+
+ /* businesses */
+ .business .contant{
+    width: 75%;
+ }
+ .business .discription .row .card{
+    border: none;
+ }
+ .business .discription .row .col .ex-details{
+        width: 301px;
+        height: 100px;
+        background: wheat;
+        position: absolute;
+ }
+ .card .body{
+    position: absolute;
+    top: 190px;
+    /* background: white; */
+    width: 235px;
+    height: 145px;
+    background-color: white !important;
+    border: 1 px solid gray !important;
+ }
+
+ .business .bd-btn button{
+   width: 200px;
+   height: 40px;
+   border: 1px solid orangered !important;
+}
+.product{
+    background-color:rgb(50, 49, 49);
+}
+.product h4{
+    color: white;
+}
+.product .bd-btn button{
+    color:white !important;
+    border: 1px solid white !important;
+}
+
+.magazeen{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.magazeen .head-text{
+    position: absolute;
+    top: 3062px;
+    left: 518px;
+    font-family: "Oswald", serif;}
+.magazeen .head-text h1{
+    font-size: 38px;
+    position: absolute;
+    top: 2px;
+    left: -40px;
+}
+.magazeen .mag-cntnt{
+    height: 400px; 
+    width: 400px; 
+    /* margin-top: 25em !important;  */
+    margin-right: 20em !important;
+    background: url(/images/mag.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.magazeen .cntnt h4{
+    font-size: 14px;
+}
+.magazeen .cntnt h6{
+    font-size: 16px;
+}
+.magazeen .cntnt p{
+    font-size: 12px;
+}
+.contant-mag .underline{
+    width: 296px;
+    height: 1px;
+    background-color: gray !important;
+    position: relative;
+    left: 221px;
+    top: 11px;
+}
+.magazeen .sec{
+    width: 80%;
+ 
+}
+.magazeen .bd-btn button{
+     color: black;
+     border: 1px solid orangered !important;
+}
+
+.magazine-heading{
+    z-index: 11;
+    font-family: "Big Shoulders Text", serif;
+    font-optical-sizing: auto;
+    font-size: 4em;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 15px;
+    left: 4.4em;
+}
+.magazeen .contant-mag{
+    height: 200px;
+    width: 531px;
+    margin-top: 6em !important;
+    margin-right: 0em !important;
+    top: 28px;
+    left: 568px;
+}
+.lastbutton button{
+    color: black !important;
+    border: 1px solid orangered !important;
+    font-size: 20px;
+}
+.footer {
+    background-color: aliceblue;
+    height: max-content;
+
+}
+.footer .btn-dark{
+    width: 45px;
+    color: white;
+}
+
